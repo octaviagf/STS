@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase de Prueba STS</title>
+    <script src="../js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../style/bootstrap.css">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+
+<!--Cabecera-->
+
+    <header>
+        <img src="../images/logo.png" alt="Sostenuto Teaching Studio">
+    </header>
+
+    <nav class="nav nav-pills nav-justified">
+        <a class="nav-link" href="../index.html">Inicio</a>
+        <a class="nav-link" href="./nosotros.html">Sobre nosotros</a>
+        <a class="nav-link" href="./programas.html">Programas</a>
+        <a class="nav-link" href="./contacto.html">Contacto</a>
+    </nav>
+
+<!--Cuerpo-->
+
+    <main id="prueba">
+        <form>
+            <label for="nombre-apellido">Nombre y apellido: </label>
+            <label for="nombre-apellido"><input type="text" id="nombre-apellido" name="nombre-apellido" required class="nombre-apellido"></label>
+            <label for="programa">Programa que le interesa: </label>
+            <label for="piano"><input type="radio" id="piano" name="piano" required> Programa de Piano </label>
+            <label for="guitarra"><input type="radio" id="guitarra" name="guitarra" required> Programa de Guitarra </label>
+            <label for="teoria"><input type="radio" id="teoria" name="teoria" required> Programa de Teoría Musical </label>
+            <label for="ensambles"><input type="radio" id="ensambles" name="ensambles" required> Programa de Ensambles </label>
+            <label for="fecha"> Fecha: <input type="date" id="fecha" name="fecha" required class="fecha"></label>
+            <label for="hora"> Hora: <input type="time" id="hora" name="hora" required class="hora"></label>
+        </form>
+
+    </main>
+
+<!--Pie de página-->
+
+<footer>
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="nav-link" href="./prueba.html">Agenda tu clase de prueba aquí!</a>
+        </div>
+    </nav> 
+</footer>
+</body>
+</html>
