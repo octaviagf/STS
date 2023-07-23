@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio STS</title>
-    <script src="./js/bootstrap.js"></script>
+    <title>STS</title>
     <link rel="stylesheet" href="./style/bootstrap.css">
     <link rel="stylesheet" href="./style/style.css">
+    <script src="./js/bootstrap.js"></script>
 </head>
 <body>
 
-<!--Cabecera-->
+    <!--Cabecera-->
 
     <header>
         <img src="./images/logo.png" alt="Sostenuto Teaching Studio">
@@ -20,29 +20,41 @@
         <a class="nav-link" href="./index.html">Inicio</a>
         <a class="nav-link" href="./pages/nosotros.html">Sobre nosotros</a>
         <a class="nav-link" href="./pages/programas.html">Programas</a>
-        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+        <a class="nav-link" href="./pages/prueba.html">Clase de prueba</a>
+        <a class="nav-link" href="./pages/prueba.html">Contacto</a>
+
     </nav>
+    
+    <!--Cuerpo-->
 
-<!--Cuerpo-->
-
-    <main>
-        <div class="card">
-            <img src="./images/logo2.png" class="card-img-top" alt="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Sostenuto Teaching Studio</h5>
-              <p class="card-text">Aquí va un texto corto de introducción llamativa al studio.</p>
+    <main class="d-flex" class="justify-content-center">
+        <div class= "row row-cols-1 row-cols-sm-2 g-3">
+          <div class="col-6">
+            <div class="card">
+              <img src="./images/logo2.png" class="card-img-top" alt="card-grid-image">
+              <div class="card-body">
+                <h5 class="card-title">Sostenuto Teaching Studio</h5>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Leer
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                            ¡Bienvenido a Sostenuto Teaching Studio! Te ofrecemos una experiencia única para explorar 
+                            y aprender sobre diferentes clases de música.  
+                            No importa si tu instrumento es el piano o la guitarra, tenemos algo especial preparado para cada amante de la música. 
+                            Estamos aquí para inspirarte, guiarte y hacer que tu aprendizaje sea divertido y gratificante. 
+                            ¡Prepárate para sumergirte en el maravilloso mundo de la música junto a nosotros!</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
             </div>
           </div>
-    </main>
 
-<!--Pie de página-->
-
-    <footer>
-        <nav class="navbar fixed-bottom navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="nav-link" href="./pages/prueba.html">Agenda tu clase de prueba aquí!</a>
-            </div>
-        </nav> 
-    </footer>
 </body>
 </html>
