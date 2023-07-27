@@ -4,51 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STS</title>
-    <link rel="stylesheet" href="../style/bootstrap.css">
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../styles/bootstrap.css">
+    <link rel="stylesheet" href="../scss/style.css">
     <script src="../js/bootstrap.js"></script>
 </head>
 <body>
 
-    <!--Cabecera-->
+<!--Cabecera-->
 
-    <header>
-        <img src="../images/logo.png" alt="Sostenuto Teaching Studio">
-    </header>
+<header>
 
-    <nav class="nav nav-pills nav-justified">
-        <a class="nav-link" href="../index.html">Inicio</a>
-        <a class="nav-link" href="./nosotros.html">Sobre nosotros</a>
-        <a class="nav-link" href="./programas.html">Programas</a>
-        <a class="nav-link" href="./prueba.html">Clase de prueba</a>
-        <a class="nav-link" href="./contacto.html">Contacto</a>
-    </nav>
-
-    <!--Cuerpo-->
-
-    <div class="parent">
-        <div>
-            <h2>Misión</h2>
-            <p>La misión de nuestra escuela de música es inspirar y empoderar a estudiantes de todas las edades y niveles de habilidad 
-                a través de una educación musical de calidad. 
-                Nuestro objetivo principal es proporcionar un entorno acogedor y estimulante donde los estudiantes 
-                puedan descubrir su pasión por la música y desarrollar su talento al máximo.</p>
+    <div class="navbar">
+      <nav class="navbar fixed-top">
+        <div class="container-fluid">
+          <img src="../img/logo3.png" alt="STS logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./programas.html">Programas</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div>
-            <h2>Visión</h2>
-            <p>Nuestra visión en la escuela de música es ser reconocidos como un referente de excelencia en la educación musical. 
-                Nos esforzamos por ser líderes en la formación de músicos talentosos y comprometidos, 
-                Nos visualizamos como una escuela de música inclusiva, donde todos los estudiantes se sientan valorados.</p>
-        </div>
-        <div>
-            <h2>Valores</h2>
-            <p>Estos valores son los pilares que guían nuestras acciones y decisiones diarias:
-                <ul>
-                    <li>Excelencia</li>
-                    <li>Respeto</li>
-                    <li>Creatividad</li>
-                    <li>Desarrollo integral</li>
-                </ul>
-            </p>
-        </div>
+      </nav>
     </div>
+
+  </header>
+
+  <div class="text-center">
+    <img src="../img/logo.png" alt="STS logo">
+  </div>
+
+<!--Cuerpo-->
+
+<main>
+
+    <div class="card">
+      <div class="card-body">
+        <h1 class="card-title">Sobre nosotros</h1>
+        <p class="card-text">Nuestro objetivo principal es proporcionar un entorno acogedor y estimulande donde los estudiantes puedan descubrir 
+            su pasión por la música y desarrollar su talento al máximo a través de una Educación Musical de calidad.
+            Nos visualizamos como una escuela de música inclusiva y nos esforzamos por ser líderes en la formación de músicos talentosos y comprometidos; 
+            desarrollando valores como: pasión por la música, creatividad, desarrollo integral, empatía, trabajo en equipo y excelencia.
+        </p>
+      </div>
+    </div>
+
+  </main>
+  
+<!--Pie de página-->
+
+  <footer>
+
+    <div class="text-center">
+      <a href="./prueba.html">Agenda tu clase de prueba aquí!</a>
+    </div>
+
+  </footer>
+
+</body>
+</html>

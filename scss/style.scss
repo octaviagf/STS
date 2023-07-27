@@ -1,0 +1,148 @@
+/*Estilo genérico*/
+
+* { margin: 0;
+    padding: 0;}
+
+body { background-color: #00173d;}
+
+header {
+    .navbar {background-color: #f94d50;}
+
+    img {width: 5rem;
+        height: 4rem;}
+
+    .navbar-toggler {border-radius: 0%;}
+
+    #offcanvasNavbar {background-color: #f94d50;}
+
+    .nav-link {font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;}
+
+        .nav-link:hover {color: #00173d}
+}
+
+.text-center {background-color: #FFFFFF;
+            width: 100%;
+
+    img {width: 25rem;
+        height: 10rem;
+        margin-top: 4rem;}
+}
+
+footer {
+
+  .text-center {background-color: #FFFFFF;
+                height: 2.5rem; 
+                width: 100%;} 
+            
+    a {font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #00173d;}
+
+        a:hover {color: #f94d50;}
+}
+
+/*Estilo del Index y Nosotros*/
+
+main {
+
+    .card {border-radius: 0;
+        border: 0;
+        width: 25rem;
+        background-color: #00173d;
+        display: block;
+        margin: auto;
+        padding-top: 2rem;
+        padding-bottom: 2rem;}
+
+    .card-title {color: #FFFFFF;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: x-large;
+                font-weight: bold;
+                text-align: center;
+                text-transform: uppercase;
+                padding-bottom: 1rem;}
+
+    .card-text {color: #FFFFFF;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: large;
+                text-align: justify;
+                line-height: 2.5rem;}
+}
+
+/*Estilo de Programas*/
+
+.programas {
+
+    .card img { display: block;
+                margin: auto;
+                height: 18rem;
+                width: 12rem;
+                border: solid 2px #FFFFFF;}
+
+    .card h1 {font-size: larger;
+            padding-top: 1rem;}
+
+    .card p {font-size: large;}
+}
+
+/*Estilo de Contacto y Prueba*/
+
+.contacto, .prueba {
+
+    form {padding-top: 2rem;}
+
+        h1 {color: #FFFFFF;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-large;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 1rem;}
+
+        .form-floating {display: block;
+                        margin: auto;}
+
+        input, textarea {background-color: #00173d;
+            border: solid 2px #f94d50;
+            border-radius: 0;}
+
+        label, h2 {color: #FFFFFF;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;}
+
+    .card span, a {color: #FFFFFF;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: large;
+                text-align: center;
+                text-decoration: none;
+                padding-left: 1rem;}
+
+    .card a:hover {color: #f94d50;}
+}
+
+.prueba {
+
+    button {background-color: #00173d;
+            border: solid 2px #f94d50;
+            border-radius: 0%;
+            color: #FFFFFF;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            font-weight: bold;
+            display: block;
+            margin: auto;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            }
+    
+        button:hover {background-color: #f94d50;
+                    border-color: #f94d50;}
+}

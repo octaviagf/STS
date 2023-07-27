@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/*Estilo genérico*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #00173d;
+}
+
+header .navbar {
+  background-color: #f94d50;
+}
+header img {
+  width: 5rem;
+  height: 4rem;
+}
+header .navbar-toggler {
+  border-radius: 0%;
+}
+header #offcanvasNavbar {
+  background-color: #f94d50;
+}
+header .nav-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+header .nav-link:hover {
+  color: #00173d;
+}
+
+.text-center {
+  background-color: #FFFFFF;
+  width: 100%;
+}
+.text-center img {
+  width: 25rem;
+  height: 10rem;
+  margin-top: 4rem;
+}
+
+footer .text-center {
+  background-color: #FFFFFF;
+  height: 2.5rem;
+  width: 100%;
+}
+footer a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #00173d;
+}
+footer a:hover {
+  color: #f94d50;
+}
+
+/*Estilo del Index y Nosotros*/
+main .card {
+  border-radius: 0;
+  border: 0;
+  width: 25rem;
+  background-color: #00173d;
+  display: block;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+main .card-title {
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+main .card-text {
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-align: justify;
+  line-height: 2.5rem;
+}
+
+/*Estilo de Programas*/
+.programas .card img {
+  display: block;
+  margin: auto;
+  height: 18rem;
+  width: 12rem;
+  border: solid 2px #FFFFFF;
+}
+.programas .card h1 {
+  font-size: larger;
+  padding-top: 1rem;
+}
+.programas .card p {
+  font-size: large;
+}
+
+/*Estilo de Contacto y Prueba*/
+.contacto form, .prueba form {
+  padding-top: 2rem;
+}
+.contacto h1, .prueba h1 {
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+.contacto .form-floating, .prueba .form-floating {
+  display: block;
+  margin: auto;
+}
+.contacto input, .contacto textarea, .prueba input, .prueba textarea {
+  background-color: #00173d;
+  border: solid 2px #f94d50;
+  border-radius: 0;
+}
+.contacto label, .contacto h2, .prueba label, .prueba h2 {
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+.contacto .card span, .contacto a, .prueba .card span, .prueba a {
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 1rem;
+}
+.contacto .card a:hover, .prueba .card a:hover {
+  color: #f94d50;
+}
+
+.prueba button {
+  background-color: #00173d;
+  border: solid 2px #f94d50;
+  border-radius: 0%;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.prueba button:hover {
+  background-color: #f94d50;
+  border-color: #f94d50;
+}/*# sourceMappingURL=style.css.map */

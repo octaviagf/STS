@@ -4,57 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STS</title>
-    <link rel="stylesheet" href="../style/bootstrap.css">
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../styles/bootstrap.css">
+    <link rel="stylesheet" href="../scss/style.css">
     <script src="../js/bootstrap.js"></script>
 </head>
 <body>
 
-    <!--Cabecera-->
+<!--Cabecera-->
 
-    <header>
-        <img src="../images/logo.png" alt="Sostenuto Teaching Studio">
-    </header>
+<header>
 
-    <nav class="nav nav-pills nav-justified">
-        <a class="nav-link" href="../index.html">Inicio</a>
-        <a class="nav-link" href="./nosotros.html">Sobre nosotros</a>
-        <a class="nav-link" href="./programas.html">Programas</a>
-        <a class="nav-link" href="./prueba.html">Clase de prueba</a>
-        <a class="nav-link" href="./contacto.html">Contacto</a>
-    </nav>
-
-    <!--Cuerpo-->
-
-    <div class="parent-programas">
-        <div>
-            <img src="../images/piano.jpg" alt="Clases de Piano">
-            <h2>Clases de Piano</h2>
-            <p>Enseñamos desde las bases fundamentales, 
-                como la lectura de partituras y la técnica adecuada de manos y dedos, 
-                hasta aspectos más complejos como la interpretación 
-                y el desarrollo de habilidades de improvisación.</p>
+    <div class="navbar">
+      <nav class="navbar fixed-top">
+        <div class="container-fluid">
+          <img src="../img/logo3.png" alt="STS logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./programas.html">Programas</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div>
-            <img src="../images/guitarra.jpg" alt="Clases de Guitarra">
-            <h2>Clases de Guitarra</h2>
-            <p>Aprenderás desde los conceptos básicos de la guitarra, como la postura y la técnica adecuada, 
-                hasta la comprensión de acordes, escalas y arpegios.
-                También a leer partituras, tablaturas y a desarrollar tu oído musical. </p>
-        </div>
-        <div>
-            <img src="../images/teoria.jpg" alt="Clases de Teoría Musical">
-            <h2>Clases de Teoría Musical</h2>
-            <p>Aprenderás a leer partituras y a entender la notación musical.
-                Explorarás conceptos como escalas, acordes, armonía y ritmo, y comprenderás 
-                cómo se combinan para crear melodías y arreglos musicales emocionantes.</p>
-        </div>
-        <div>
-            <img src="../images/ensambles.jpg" alt="Clases de Ensambles Musicales">
-            <h2>Clases de Ensambles Musicales</h2>
-            <p>Tenemos diferentes tipos de agrupaciones, desde bandas de rock y jazz hasta orquestas y coros. 
-                Tendrás la oportunidad de desarrollar habilidades fundamentales 
-                de trabajo en equipo y comunicación musical.</p>
-        </div>
-
+      </nav>
     </div>
+
+  </header>
+
+  <div class="text-center">
+    <img src="../img/logo.png" alt="STS logo">
+  </div>
+
+<!--Cuerpo-->
+
+  <main class="programas">
+
+    <div class="card">
+        <div class="card-body">
+            <img src="../img/piano.jpg" alt="Piano">
+            <h1 class="card-title">Programa de Piano</h1>
+            <p class="card-text">Enseñamos desde las bases fundamentales, como la lectura de partituras y la técnica adecuada de manos y dedos, 
+                hasta aspectos más complejos como la interpretación y el desarrollo de habilidades de improvisación.
+            </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <img src="../img/guitarra.jpg" alt="Guitarra">
+            <h1 class="card-title">Programa de Guitarra</h1>
+            <p class="card-text">Aprenderás desde los conceptos básicos de la guitarra, como la postura y la técnica adecuada, 
+                hasta la comprensión de acordes, escalas y arpegios. También a leer partituras, tablaturas y a desarrollar tu oído musical.
+            </p>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <img src="../img/teoria.jpg" alt="Teoría Musical">
+                <h1 class="card-title">Programa de Teoría Musical</h1>
+                <p class="card-text">Aprenderás a leer partituras y a entender la notación musical. Explorarás conceptos como escalas, 
+                    acordes, armonía y ritmo, y comprenderás cómo se combinan para crear melodías y arreglos musicales emocionantes.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <img src="../img/ensambles.jpg" alt="Ensamble Musical">
+                <h1 class="card-title">Programa de Ensambles</h1>
+                <p class="card-text">Tenemos diferentes tipos de agrupaciones, desde bandas de rock y jazz hasta orquestas y coros. 
+                    Tendrás la oportunidad de desarrollar habilidades fundamentales de trabajo en equipo y comunicación musical.
+                </p>
+            </div>
+        </div>
+    </div>
+<!--Pie de página-->
+
+<footer>
+
+    <div class="text-center">
+      <a href="./prueba.html">Agenda tu clase de prueba aquí!</a>
+    </div>
+
+  </footer>
+
+</body>
+</html>

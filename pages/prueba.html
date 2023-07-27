@@ -4,37 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STS</title>
-    <link rel="stylesheet" href="../style/bootstrap.css">
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../styles/bootstrap.css">
+    <link rel="stylesheet" href="../scss/style.css">
     <script src="../js/bootstrap.js"></script>
 </head>
 <body>
 
-    <!--Cabecera-->
+<!--Cabecera-->
 
-    <header>
-        <img src="../images/logo.png" alt="Sostenuto Teaching Studio">
-    </header>
+<header>
 
-    <nav class="nav nav-pills nav-justified">
-        <a class="nav-link" href="../index.html">Inicio</a>
-        <a class="nav-link" href="./nosotros.html">Sobre nosotros</a>
-        <a class="nav-link" href="./programas.html">Programas</a>
-        <a class="nav-link" href="./prueba.html">Clase de prueba</a>
-        <a class="nav-link" href="./contacto.html">Contacto</a>
-    </nav>
+    <div class="navbar">
+      <nav class="navbar fixed-top">
+        <div class="container-fluid">
+          <img src="../img/logo3.png" alt="STS logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./programas.html">Programas</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
 
-    <!--Cuerpo-->
+  </header>
 
-    <form>
-        <label for="nombre-apellido">Nombre y apellido: </label>
-        <input type="text">
-        <label for="telefono">Número de contacto: </label>
-        <input type="number">
-        <label for="programa">Programa que le interesa: </label>
-        <input type="text">
-        <label for="fecha">Fecha: </label>
-        <input type="date">
-        <label for="hora">Hora: </label>
-        <input type="time">
-    </form>
+  <div class="text-center">
+    <img src="../img/logo.png" alt="STS logo">
+  </div>
+
+<!--Cuerpo-->
+
+<main class="prueba">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <h1>Clase de prueba</h1>
+                    <div class="form-floating" class="text-center">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Nombre y apellido">
+                        <label for="floatingInput">Nombre y apellido</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingEmail" placeholder="Correo electrónico">
+                        <label for="floatingPassword">Correo electrónico</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="number" class="form-control" id="floatingNumber" placeholder="Número telefónico">
+                        <label for="floatingNumber">Número telefónico</label>
+                    </div>
+                    <h2>Programa que le interesa: </h2>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioDefault" id="formRadioDefault">
+                        <label class="form-check-label" for="formRadioDefault">Piano</label>
+                      </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioDefault" id="formRadioDefault2">
+                        <label class="form-check-label" for="formRadioDefault2">Guitarra</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioDefault" id="formRadioDefault3">
+                        <label class="form-check-label" for="formRadioDefault3">Teoría Musical</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioDefault" id="formRadioDefault3">
+                        <label class="form-check-label" for="formRadioDefault3">Ensambles</label>
+                      </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Mensaje" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Mensaje adicional</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
