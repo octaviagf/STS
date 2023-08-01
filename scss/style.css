@@ -63,6 +63,17 @@ footer a:hover {
 }
 
 /*Estilo del Index y Nosotros*/
+main .slide {
+  display: block;
+  margin: auto;
+  padding-top: 5rem;
+}
+main .carousel-item img {
+  display: block;
+  margin: auto;
+  height: 25rem;
+  background-color: #FFFFFF;
+}
 main .card {
   border-radius: 0;
   border: 0;
@@ -98,7 +109,7 @@ main .card-text {
   width: 12rem;
   border: solid 2px #FFFFFF;
 }
-.programas .card h1 {
+.programas .card h1, .programas h2 {
   font-size: larger;
   padding-top: 1rem;
 }

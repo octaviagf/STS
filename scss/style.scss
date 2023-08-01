@@ -6,6 +6,7 @@
 body { background-color: #00173d;}
 
 header {
+
     .navbar {background-color: #f94d50;}
 
     img {width: 2.5rem;
@@ -54,6 +55,15 @@ footer {
 
 main {
 
+    .slide {display: block;
+            margin: auto;
+            padding-top: 5rem;}
+
+    .carousel-item img {    display: block;
+                            margin: auto;
+                            height: 25rem;
+                            background-color: #FFFFFF;}
+                            
     .card {border-radius: 0;
         border: 0;
         width: 25rem;
@@ -88,7 +98,7 @@ main {
                 width: 12rem;
                 border: solid 2px #FFFFFF;}
 
-    .card h1 {font-size: larger;
+    .card h1, h2 {font-size: larger;
             padding-top: 1rem;}
 
     .card p {font-size: large;}
